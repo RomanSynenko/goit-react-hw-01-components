@@ -1,0 +1,28 @@
+.profile {
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid #e7e1e0;
+    border-radius: 20px;
+    padding: 20px 0 20px 0;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    .description {
+        width: 150px;
+        margin: 0 auto;
+    }
+    .avatar {
+        border-radius: 50%;
+    }
+    .name,
+    .tag,
+    .location {
+        text-align: center;
+    }
+    .name {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .tag,
+    .location {
+        color: gray;
+    }
+}

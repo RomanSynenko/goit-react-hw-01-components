@@ -1,0 +1,33 @@
+.stats {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: -5px;
+
+    .item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        margin: 5px;
+        background: #e7e1e0;
+        width: 70px;
+        min-height: 70px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        .label,
+        .quantity {
+            display: block;
+        }
+        .label {
+            color: #676666;
+            font-size: 12px;
+            // font-weight: bold;
+        }
+        .quantity {
+            font-weight: bold;
+        }
+    }
+}

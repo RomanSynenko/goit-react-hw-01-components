@@ -1,0 +1,10 @@
+.wrapper {
+    color: #6d6d6d;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    height: 60px;
+    &:nth-child(2n) {
+        background: #dfdcdc;
+    }
+}

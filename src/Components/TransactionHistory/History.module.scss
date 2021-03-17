@@ -1,0 +1,18 @@
+.transactionHistory {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #e7e1e0;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    .tableColum {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .tabbleRow {
+        margin: 10px 0 10px 0;
+        height: 60px;
+        border: 1px solid white;
+        background: #49c2d3;
+        color: white;
+    }
+}

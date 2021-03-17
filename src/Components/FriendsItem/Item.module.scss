@@ -1,0 +1,30 @@
+.item {
+    min-height: 70px;
+    border: 1px solid #e7e1e0;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    .onLine,
+    .offLine {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .offLine {
+        background: red;
+    }
+    .onLine {
+        background: green;
+    }
+    .avatar {
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .name {
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
